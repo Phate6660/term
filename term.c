@@ -18,7 +18,6 @@ main(int argc, char *argv[]) {
     descr = pango_font_description_from_string(TERM_FONT);
     vte_terminal_set_font(terminal, descr);
     pango_font_description_free(descr);
-
     /* Start a new shell */
     gchar **envp = g_get_environ();
     gchar **command = (gchar *[]){g_strdup(g_environ_getenv(envp, "SHELL")), NULL };
@@ -33,11 +32,9 @@ main(int argc, char *argv[]) {
         NULL,       /* child pid */
         -1,         /* timeout */
         NULL, NULL, NULL);
-
     /* Connect some signals */
     g_signal_connect(window, "delete-event", gtk_main_quit, NULL);
     g_signal_connect(terminal, "child-exited", gtk_main_quit, NULL);
-
     /* Put widgets together and run the main loop */
     gtk_container_add(GTK_CONTAINER(window), terminal);
     gtk_widget_show_all(window);
