@@ -1,8 +1,7 @@
 #include 
 
 int
-main(int argc, char *argv[])
-{
+main(int argc, char *argv[]) {
     GtkWidget *window, *terminal;
     /* Initialise GTK, the window and the terminal */
     gtk_init(&argc, &argv);
