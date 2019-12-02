@@ -18,6 +18,8 @@ main(int argc, char *argv[]) {
     descr = pango_font_description_from_string(TERM_FONT);
     vte_terminal_set_font(terminal, descr);
     pango_font_description_free(descr);
+    char* name = NULL;
+    gtk_window_set_wmclass(GTK_WINDOW (window), name ? name : "valleyTERM", "valleyTERM");
     /* Start a new shell */
     gchar **envp = g_get_environ();
     gchar **command = (gchar *[]){g_strdup(g_environ_getenv(envp, "SHELL")), NULL };
