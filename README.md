@@ -1,5 +1,5 @@
 # valleyTERM
-Yet another VTE wrapper. This time made and customized by me.
+Yet another VTE wrapper. This time made and customized by me.</br>
 If anyone is wondering why "valley" is in the name, it's because "valley" is a fairly common handle that I use.
 
 Dependencies: vte-2.91 and gtk.
