@@ -7,7 +7,7 @@ Features:
 2. The settings are hard-coded.
 3. I'm starting to realize that these might not be features for most people.
 
-Note: You might have to take a look through the source and change what you want.</br>
+Note: You might have to take a look through the source and change what you want. Especially the font.</br>
 Don't worry; I made sure to comment things, so it shouldn't be too hard.
 
 Dependencies: vte-2.91 and gtk.
