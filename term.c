@@ -30,22 +30,22 @@ main(int argc, char *argv[]) {
         &CLR_GDK(0xffffff),
         &(GdkRGBA){ .alpha = 0.85 },
         (const GdkRGBA[]){
-            CLR_GDK(0x111111),
-            CLR_GDK(0xd36265),
-            CLR_GDK(0xaece91),
-            CLR_GDK(0xe7e18c),
-            CLR_GDK(0x5297cf),
-            CLR_GDK(0x963c59),
-            CLR_GDK(0x5E7175),
-            CLR_GDK(0xbebebe),
-            CLR_GDK(0x666666),
-            CLR_GDK(0xef8171),
-            CLR_GDK(0xcfefb3),
-            CLR_GDK(0xfff796),
-            CLR_GDK(0x74b8ef),
-            CLR_GDK(0xb85e7b),
-            CLR_GDK(0xA3BABF),
-            CLR_GDK(0xffffff)
+            CLR_GDK(0x111111), // edit
+            CLR_GDK(0xd36265), // these
+            CLR_GDK(0xaece91), // to
+            CLR_GDK(0xe7e18c), // change
+            CLR_GDK(0x5297cf), // the
+            CLR_GDK(0x963c59), // colorscheme
+            CLR_GDK(0x5E7175), // edit
+            CLR_GDK(0xbebebe), // these
+            CLR_GDK(0x666666), // to
+            CLR_GDK(0xef8171), // change
+            CLR_GDK(0xcfefb3), // the
+            CLR_GDK(0xfff796), // colorscheme
+            CLR_GDK(0x74b8ef), // edit
+            CLR_GDK(0xb85e7b), // these
+            CLR_GDK(0xA3BABF), // to
+            CLR_GDK(0xffffff) // change the colorsheme
     }, 16); */
     gtk_window_set_wmclass(GTK_WINDOW (window), name ? name : "valleyTERM", "valleyTERM");
     /* Start a new shell */
