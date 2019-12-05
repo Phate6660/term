@@ -18,6 +18,7 @@ main(int argc, char *argv[]) {
     descr = pango_font_description_from_string(TERM_FONT);
     vte_terminal_set_font(terminal, descr);
     pango_font_description_free(descr);
+    // un-comment the following section to edit the colors, the lines commented 1-16 are for the actual colorscheme so only change those lines
     /* #define CLR_R(x)   (((x) & 0xff0000) >> 16)
     #define CLR_G(x)   (((x) & 0x00ff00) >>  8)
     #define CLR_B(x)   (((x) & 0x0000ff) >>  0)
@@ -30,22 +31,22 @@ main(int argc, char *argv[]) {
         &CLR_GDK(0xffffff),
         &(GdkRGBA){ .alpha = 0.85 },
         (const GdkRGBA[]){
-            CLR_GDK(0x111111), // edit
-            CLR_GDK(0xd36265), // these
-            CLR_GDK(0xaece91), // to
-            CLR_GDK(0xe7e18c), // change
-            CLR_GDK(0x5297cf), // the
-            CLR_GDK(0x963c59), // colorscheme
-            CLR_GDK(0x5E7175), // edit
-            CLR_GDK(0xbebebe), // these
-            CLR_GDK(0x666666), // to
-            CLR_GDK(0xef8171), // change
-            CLR_GDK(0xcfefb3), // the
-            CLR_GDK(0xfff796), // colorscheme
-            CLR_GDK(0x74b8ef), // edit
-            CLR_GDK(0xb85e7b), // these
-            CLR_GDK(0xA3BABF), // to
-            CLR_GDK(0xffffff) // change the colorsheme
+            CLR_GDK(0x111111), // 1
+            CLR_GDK(0xd36265), // 2
+            CLR_GDK(0xaece91), // 3
+            CLR_GDK(0xe7e18c), // 4
+            CLR_GDK(0x5297cf), // 5
+            CLR_GDK(0x963c59), // 6
+            CLR_GDK(0x5E7175), // 7
+            CLR_GDK(0xbebebe), // 8
+            CLR_GDK(0x666666), // 9
+            CLR_GDK(0xef8171), // 10
+            CLR_GDK(0xcfefb3), // 11
+            CLR_GDK(0xfff796), // 12
+            CLR_GDK(0x74b8ef), // 13
+            CLR_GDK(0xb85e7b), // 14
+            CLR_GDK(0xA3BABF), // 15
+            CLR_GDK(0xffffff)  // 16
     }, 16); */
     char* name = NULL;
     gtk_window_set_wmclass(GTK_WINDOW (window), name ? name : "valleyTERM", "valleyTERM");
