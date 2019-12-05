@@ -47,6 +47,7 @@ main(int argc, char *argv[]) {
             CLR_GDK(0xA3BABF), // to
             CLR_GDK(0xffffff) // change the colorsheme
     }, 16); */
+    char* name = NULL;
     gtk_window_set_wmclass(GTK_WINDOW (window), name ? name : "valleyTERM", "valleyTERM");
     /* Start a new shell */
     gchar **envp = g_get_environ();
