@@ -13,6 +13,6 @@ Don't worry; I made sure to comment things, so it shouldn't be too hard.
 Dependencies: vte-2.91 and gtk.
 
 How to use:
-1. Either download [term.c](https://github.com/Phate6660/term/blob/master/term.c) or clone the repository.
+1. Clone the repository.
 2. Compile: `make && sudo make install`.
 3. Profit: `valleyTERM`.
