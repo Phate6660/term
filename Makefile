@@ -1,4 +1,5 @@
-TARGET=valleyTERM
+TARGET=valleyterm
+INSTDIR=/usr/bin
 CC=gcc
 DEBUG=-g
 OPT=-O2
@@ -16,4 +17,8 @@ term.o: term.c
 	$(CC) -c $(CCFLAGS) term.c -o term.o
 
 clean:
-	rm -f *.o
+	rm -f $(OBJS) $(TARGET)
+
+install:
+	install -m 755 ./$(TARGET) $(INSTDIR)
+
