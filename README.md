@@ -15,8 +15,9 @@ Dependencies: vte-2.91 and gtk.
 # Installation
 #### From source:
 1. Clone the repository.
-2. Compile: `make && sudo make install`.
-3. Profit: `valleyTERM`.
+2. Change whatever settings you want in `term.c`.
+3. Compile: `make && sudo make install`.
+4. Profit: `valleyTERM`.
 
 #### From Portage (Gentoo):
 1. Install my [Gentoo overlay](https://github.com/Phate6660/overlay).
