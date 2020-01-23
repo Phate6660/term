@@ -21,8 +21,9 @@ Dependencies: vte-2.91 and gtk.
 
 #### From Portage (Gentoo):
 1. Install this [Gentoo overlay](https://github.com/p6nc/overlay).
-2. Install: `emerge -atv valleyterm`. (-a = ask, -t = tree, -v = verbose. Flags are needed, they are just my preference.)
-3. Profit: `valleyterm`.<br>
-<br>
-Note: Installing from Portage currently uses the default settings.<br>
+2. Install: `emerge -atv valleyterm`.</br>
+   (-a = ask, -t = tree, -v = verbose. The flags aren't needed, they are just my preference.)
+3. Profit: `valleyterm`.</br>
+</br>
+Note: Installing from Portage currently uses the default settings.</br>
 You need to have the font `Misc Fixed`, else the terminal *will* look like garbage. :)
