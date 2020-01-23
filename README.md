@@ -20,8 +20,8 @@ Dependencies: vte-2.91 and gtk.
 4. Profit: `valleyTERM`.
 
 #### From Portage (Gentoo):
-1. Install my [Gentoo overlay](https://github.com/Phate6660/overlay).
-2. Install: `emerge valleyterm`.
+1. Install this [Gentoo overlay](https://github.com/p6nc/overlay).
+2. Install: `emerge -atv valleyterm`. (-a = ask, -t = tree, -v = verbose. No flags are needed, they are just my preference.)
 3. Profit: `valleyterm`.<br>
 <br>
 Note: Installing from Portage currently uses the default settings.<br>
