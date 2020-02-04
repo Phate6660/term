@@ -1,5 +1,5 @@
 TARGET=valleyterm
-INSTDIR=/usr/bin
+INSTDIR=/usr/local/bin
 CC=gcc
 DEBUG=-g
 OPT=-O2
